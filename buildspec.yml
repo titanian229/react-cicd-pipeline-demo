@@ -15,4 +15,9 @@ reports:
       - junit.xml
     file-format: JUNITXML
     base-directory: /tests/
+  clover_reports:
+    files:
+      - clover.xml
+    base-directory: /coverage/
+    
   
