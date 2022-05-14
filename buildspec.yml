@@ -11,12 +11,12 @@ phases:
       - npm test
 
 reports:
-  # jest_reports:
-  #   base-directory: tests/
-  #   files:
-  #     - junit.xml
-  #   file-format: JUNITXML
-  clover_reports:
+  jest_reports:
+    base-directory: tests/
+    files:
+      - junit.xml
+    file-format: JUNITXML
+  clover_reports_coverage:
     base-directory: coverage/
     files:
       - clover.xml
