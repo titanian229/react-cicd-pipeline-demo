@@ -19,4 +19,4 @@ reports:
   clover_reports:
     files:
       - coverage/clover.xml
-    fileFormat: CLOVERXML
+    file-format: CLOVERXML
