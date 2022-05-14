@@ -18,6 +18,5 @@ reports:
   clover_reports:
     files:
       - clover.xml
+    fileFormat: CLOVERXML
     base-directory: /coverage/
-    
-  
