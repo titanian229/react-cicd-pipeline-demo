@@ -7,6 +7,7 @@ phases:
   build:
     commands:
       - npm build
+      - echo 'Build complete, running tests'
       - npm test
 
 reports:
@@ -14,9 +15,8 @@ reports:
     files:
       - junit.xml
     file-format: JUNITXML
-    base-directory: /tests/
+    base-directory: tests/
   clover_reports:
     files:
-      - clover.xml
+      - coverage/clover.xml
     fileFormat: CLOVERXML
-    base-directory: /coverage/
